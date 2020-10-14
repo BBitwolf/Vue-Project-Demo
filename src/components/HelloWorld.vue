@@ -1,6 +1,6 @@
 <template>
 <div>
-<v-card>
+<v-card style="border-left: 8px solid #FFB300;">
   <v-card-title>Demo:: Normal Usage</v-card-title>
   <v-card-subtitle>@ Vuetify-Image-Clipper</v-card-subtitle>
   <v-divider></v-divider>
@@ -9,7 +9,7 @@
   </v-card-text>
 </v-card>
 
-<v-card class="mt-12">
+<v-card class="mt-12" style="border-left: 8px solid #FFB300;">
   <v-card-title>Demo:: Integrating with Dialog and Slots</v-card-title>
   <v-card-subtitle>@ Vuetify-Image-Clipper</v-card-subtitle>
   <v-divider></v-divider>

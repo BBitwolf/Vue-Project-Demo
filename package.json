@@ -12,7 +12,7 @@
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vuetify": "^2.2.31",
-    "vuetify-image-clipper": "0.0.5"
+    "vuetify-image-clipper": "0.0.6"
   },
   "devDependencies": {
     "@mdi/font": "^5.7.55",

@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <v-app> 
-      <v-content>
+      <v-main class="orange lighten-5">
         <v-container class="pt-12">
           <HelloWorld/>
         </v-container>
-      </v-content>
+      </v-main>
     </v-app>
   </div>
 </template>
