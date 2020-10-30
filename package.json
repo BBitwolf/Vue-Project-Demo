@@ -11,7 +11,9 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue-router": "~3.4.8",
     "vuetify": "^2.2.31",
+    "vuetify-date-selection": "file:vuetify-date-selection-0.0.1.tgz",
     "vuetify-image-clipper": "0.0.6"
   },
   "devDependencies": {

@@ -1,22 +1,18 @@
 <template>
-  <div id="app">
+<div id="app">
     <v-app> 
-      <v-main class="orange lighten-5">
-        <v-container class="pt-12">
-          <HelloWorld/>
-        </v-container>
-      </v-main>
+        <v-main class="grey lighten-4">
+            <Navbar></Navbar>
+            <router-view></router-view>
+        </v-main>
     </v-app>
-  </div>
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Navbar from './components/Navbar'
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+    name: 'App',
+    components: {Navbar}
 }
 </script>
