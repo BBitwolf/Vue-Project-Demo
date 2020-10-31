@@ -2,7 +2,8 @@
 <div>
 	<v-app-bar dark>
         <v-app-bar-nav-icon @click="isOpen=!isOpen"></v-app-bar-nav-icon>
-        <v-toolbar-title>bbitwolf@github</v-toolbar-title>
+        <v-spacer></v-spacer>
+        <v-toolbar-title><v-icon left>mdi-github</v-icon>bbitwolf</v-toolbar-title>
 	</v-app-bar>
 	<!-- Side bar -->
 	<v-navigation-drawer
