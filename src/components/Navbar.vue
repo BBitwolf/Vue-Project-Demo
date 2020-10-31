@@ -83,12 +83,13 @@ export default {
 	watch:{
 	},
 	created(){
+		const publicPath = process.env.NODE_ENV === 'production' ? '/Vue-Project-Demo/' : '/'
 		this.route_groups = [
 			{
 				title : "General",
 				routes : [
 					{ 
-						icon: "mdi-home", title : "Home", route: "/", sub: null 
+						icon: "mdi-home", title : "Home", route: publicPath, sub: null 
 					},
 				]
 			},
@@ -96,13 +97,13 @@ export default {
 				title : "Example",
 				routes : [
 					{ 
-						icon: "mdi-widgets", title : "Vuetify Image Clipper", route: '/vuetify-image-clipper', sub: null
+						icon: "mdi-widgets", title : "Vuetify Image Clipper", route: publicPath+'vuetify-image-clipper', sub: null
 						// sub: [
 						// 	{ title : "example", route: "/example" },
 						// ] 
 					},
 					{ 
-						icon: "mdi-widgets", title : "Vuetify Date Selection", route: "/vuetify-date-selection", sub: null 
+						icon: "mdi-widgets", title : "Vuetify Date Selection", route: publicPath+"vuetify-date-selection", sub: null 
 					},
 				]
 			}
