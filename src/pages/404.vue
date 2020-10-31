@@ -1,5 +1,5 @@
 <template>
-<v-container fill-height class="justify-center">
+<v-container fill-height fluid class="justify-center grey lighten-4">
 	<div class="text-center">
 		<div>
 			<v-icon size=120>mdi-file-find</v-icon>

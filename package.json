@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "sh deploy.sh"
+    "deploy": "node gh-pages-deploy.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -14,7 +14,8 @@
     "vue-router": "~3.4.8",
     "vuetify": "^2.2.31",
     "vuetify-date-selection": "file:vuetify-date-selection-0.0.1.tgz",
-    "vuetify-image-clipper": "0.0.6"
+    "vuetify-image-clipper": "0.0.6",
+    "execa": "latest"
   },
   "devDependencies": {
     "@mdi/font": "^5.7.55",
