@@ -13,6 +13,7 @@ const routes = [
         { path: 'home', name: 'main', component: Main, meta: { auth: null, title: 'Home' } },
         { path: 'vuetify-image-clipper', name: 'VImageClipper', component: VImageClipper, meta: { auth: null, title: 'vuetify-immge-clipper' } },
         { path: 'vuetify-date-selection', name: 'VDateSelectionDemo', component: VDateSelectionDemo, meta: { auth: null, title: 'vuetify-immge-clipper' } },
+        { path: '/', name: '404', component: Error404, meta: { auth: null, title: '404' } },
     ] },
 
     { path: '*', name: '404', component: Error404, meta: { auth: null, title: '404' } },
