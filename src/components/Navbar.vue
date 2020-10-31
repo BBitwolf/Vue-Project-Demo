@@ -76,20 +76,20 @@ export default {
 		return {
 			isOpen: false,
 			route_groups: null,
-			navIndex: 0,
+			navIndex: null,
 		}
 	},
 	components : { },
 	watch:{
 	},
 	created(){
-		const publicPath = process.env.NODE_ENV === 'production' ? '/Vue-Project-Demo/' : '/'
+		const publicPath = '/Vue-Project-Demo/'
 		this.route_groups = [
 			{
 				title : "General",
 				routes : [
 					{ 
-						icon: "mdi-home", title : "Home", route: publicPath, sub: null 
+						icon: "mdi-home", title : "Home", route: publicPath+'home', sub: null 
 					},
 				]
 			},
