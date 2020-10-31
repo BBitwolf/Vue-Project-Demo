@@ -7,7 +7,7 @@ import BaseLayout from './pages/Layout'
 import VImageClipper from './pages/v-image-clipper-demo'
 import VDateSelectionDemo from './pages/v-date-selection-demo'
 
-const publicPath = process.env.NODE_ENV === 'production' ? '/Vue-Project-Demo/' : '/'
+const publicPath = process.env.NODE_ENV === 'production' ? '/Vue-Project-Demo' : ''
 
 const routes = [
 
